@@ -47,6 +47,28 @@ Fonts
     --max-width: 1170px;
     --fixed-width: 620px;
   }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /*scrollbar*/
+  ::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+   }
+   ::-webkit-scrollbar-thumb {
+    background: linear-gradient(17deg, #063251 25%,#063251 27%);
+    border-radius: 0px;
+   }
+   ::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(13deg, #063251 14%,#063251 64%);
+   }
+   ::-webkit-scrollbar-track{
+    background: #ffffff;
+    border-radius: 0px;
+    box-shadow: inset 7px 10px 12px #ffffff;
+   }
 /*
 =============== 
 Global Styles
